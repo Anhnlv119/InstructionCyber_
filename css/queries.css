@@ -1,0 +1,107 @@
+@media screen and (max-width:1199.98px){
+    /* CAROUSEL */
+    #carouselCyber .carousel-caption{
+        top:50%;
+    }
+    #carouselCyber .carousel-caption h1{
+        font-size: 4vw;
+    }
+    #carouselCyber .carousel-caption p{
+        font-size: 1.6vw;
+        margin-bottom: 0.5em;
+    }
+    #carouselCyber .carousel-caption button{
+        font-size: 1.5vw;
+        padding: 0.8em 1em;
+    }
+}
+
+@media screen and (max-width:991.98px){
+    .navInstruction .navbar-brand p:first-child{
+        font-size: 3vw;
+    }
+    .navInstruction .navbar-brand p:last-child{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:768.98px){
+    #navInstruction .navbar-nav{
+        background-color: #eee;
+        text-align: center;
+    }
+    
+    #navInstruction .dropdown-menu{
+        background-color: #e0e1e2;
+        border-color: #e0e1e2;
+        text-align: center;
+    }
+
+    #navInstruction .dropdown-item{
+        color: black;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .heading p{
+        padding: 0 15px;
+    }
+
+    .header__left a{
+        display: block;
+    }
+
+    .footer__form input,
+    .footer__form button{
+        padding: 10px;
+        border: 0;
+    }
+}
+
+@media screen and (max-width:415px){
+    /* CAROUSEL */
+    #carouselCyber{
+        height: 250px;
+    }
+    #carouselCyber .carousel-inner,#carouselCyber .carousel-item,#carouselCyber .carousel-item img{
+        height: 100%;
+    }
+    #carouselCyber .carousel-item img{
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:376px){
+    .feedback__bottom{
+       width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header__right{
+        width: 35%;
+        text-align: center;
+    }
+
+    .header__right a{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    #navbarInstruction .nav-item{
+        margin: 0;
+        padding: 0 2px;;
+    }
+    #navbarInstruction .nav-link{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width:527px) and (max-width:992px){
+    .feedback__bottom{
+        width: 85%;
+    }
+}
+
